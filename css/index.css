@@ -25,3 +25,23 @@ html, body {
     line-height: 30px;
     margin-left: 0.25rem;
 }
+
+.navInstruction a{
+    color: black;
+}
+
+.navInstruction .navbar-brand p:first-child{
+    font-size: 36pt;
+}
+
+.navInstruction .navbar-brand p:first-child i{
+    transform: skewX(-10deg);
+}
+
+.navInstruction .navbar-brand p:last-child{
+    font-size: 11px;
+    color: #ff4f81;
+    letter-spacing: 3px;
+    font-weight: bold;
+    text-align: center;
+}
