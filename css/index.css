@@ -4,6 +4,40 @@ html, body {
     font-optical-sizing: auto;
 }
 
+.heading{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.heading h2{
+    font-size: 40px;
+    color: #ff4f81;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+.heading p{
+    text-transform: capitalize;
+    letter-spacing: 4px;
+    color: black;
+    font-size: 17px;
+}
+
+.heading p::after{
+    content: '';
+    width: 70px;
+    height: 2px;
+    background-color: black;
+    display: block;
+    margin: 20px auto;
+}
+
+.section{
+    padding: 5rem 0;
+
+}
+
 /* HEADER */
 .header__top{
     background-color: #ff4f81;
@@ -108,3 +142,54 @@ html, body {
     color: #ff4f81;
 }
 
+/* CAROUSEL */
+#carouselCyber  .carousel-caption{  
+    /*cách đưa 1 khối có possition vào giữa, chỉ áp dụng với thẻ có position: absolute*/
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#carouselCyber  .carousel-caption h1{
+    font-size: 52px;
+}
+
+#carouselCyber  .carousel-caption p{
+    letter-spacing: 4px;
+    line-height: 1.8rem;
+
+    width: 70%;
+    margin: 0 auto; /*margin auto chỉ áp dụng cho 1 thẻ, không áp dụng cho 1 khối có áp dụng position*/
+    margin-bottom: 25px;
+    font-weight: 300;
+}
+
+#carouselCyber  .carousel-caption button{
+    padding: 11px 20px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 0;
+    letter-spacing: 2px;
+    font-size: 14px;
+    transition: all 0.5s;
+}
+
+#carouselCyber  .carousel-caption button:hover{
+    background-color: #ff4f81;
+    border-color: #ff4f81;
+}
+
+/* WELCOME */
+
+.welcome__content p{
+    width: 70%;
+    margin: 0 auto;
+
+    text-align: center;
+    font-size: 15px;
+    /* 1em = 15px */
+    line-height: 1.8em;
+    color: #999;
+    letter-spacing: 1px;
+    padding: 1rem 0 5rem;
+}
