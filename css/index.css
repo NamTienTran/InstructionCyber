@@ -33,6 +33,10 @@ html, body {
     margin: 20px auto;
 }
 
+.heading--white p{
+    color: white;
+}
+
 .section{
     padding: 5rem 0;
 
@@ -222,4 +226,34 @@ html, body {
 
 .welcome__col{
     padding: 2rem;
+}
+
+/* OUR STARTS */
+.ourStarts{
+    background-image: url(../img/banner2.jpg);
+    background-attachment: fixed;  /*hình nền cố định khi nội dung trượt lên trượt xuống*/
+    background-size: cover;
+}
+
+.ourStarts__content {
+    text-align: center;
+    color: white;
+}
+
+.ourStarts__content i{
+    font-size: 2.5rem;
+}
+
+.ourStarts__content h3{
+    font-size: 1.3rem;
+    color: #ff4f81;
+    letter-spacing: 3px;
+    margin: 30px 0 20px;
+    font-weight: bold;
+}
+
+.ourStarts__content p{
+    font-size: 3rem;
+    letter-spacing: 2px;
+    font-weight: 300;
 }
