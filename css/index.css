@@ -257,3 +257,158 @@ html, body {
     letter-spacing: 2px;
     font-weight: 300;
 }
+
+/* OFFER */
+.offer__col{
+    padding: 15px;
+}
+
+.offer__item{
+    padding: 25px 40px;
+    box-shadow: 0px 1px 8px 0px rgba(158, 158, 158, 0.75);
+    text-align: center;
+    background-color: white;
+    transition: all 0.5s;
+}
+
+.offer__item:hover{
+    background-color: #12ccc3;
+}
+
+.offer__item i{
+    color: #ff4f81;
+    font-size: 40px;
+}
+
+.offer__item h3{
+    font-size: 20px;
+    margin: 25px 0 20px;
+    color: black;
+}
+
+.offer__item p{
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    color: #6b6b6b;
+}
+
+/* FEEDBACK */
+.feedback{
+    /* background-image: url(../img/banner3.jpg);
+    background-position: center; */
+    background: url(../img/banner3.jpg) center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.feedback__content{
+    box-shadow: 0px 1px 7px #8e8e8e;
+    background-color: rgba(0, 0, 0, 0.47);
+    padding: 1rem;
+}
+
+.feedback__content .item{
+    color: white;
+    padding: 1rem;
+}
+
+.feedback__top{
+    padding: 1rem 1.5rem;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.47);
+    /* Chỉnh vị trí cho tam giác */
+    position: relative;
+
+}
+
+.feedback__top::after{
+    content: '';
+    /* vẽ tam giác bằng css */
+    border-top: 9px solid rgba(0, 0, 0, 0.47);
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    /* chỉnh vị trí cho tam giác */
+    position: absolute;
+    top: 100%;
+    left: 28%;
+}
+
+.feedback__content .feedback__bottom img{
+    width: 28%;
+    display: inline-block;
+}
+
+.feedback__bottom{
+    display: flex;
+    justify-content: center;
+    width: 55%;
+    margin: 2rem auto 0;
+}
+
+.feedback__name{
+    margin: 5px;
+}
+
+.feedback__name p{
+    margin: 0;
+    color: #ff4f81;
+}
+
+.feedback__name p:first-child{
+    color: white;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.feedback__content .owl-theme .owl-dots .owl-dot span{
+    background-color: #ff4f81;
+    opacity: 0.5;
+}
+
+.feedback__content .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+    opacity: 1;
+}
+
+.feedback__content .owl-theme .owl-dots .owl-dot:focus{
+    outline: none;
+}
+
+/* NEWS & EVENTS */
+.news__content img{
+    border: 2px solid #dedede;
+}
+
+.news__content h3{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.news__content a{
+    color: black;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: all 0.5s;
+}
+
+.news__content a:hover{
+    color: #ff4f81;
+}
+
+.news__content h4{
+    color: #ff4f81;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 1rem 0;
+}
+
+.news__content p{
+    margin-top: 1rem;
+    line-height: 1.8rem;
+    color: #999;
+    font-size: 0.9rem;
+}
+
+.news__content .row:last-child{
+    margin-top: 5rem;
+}
