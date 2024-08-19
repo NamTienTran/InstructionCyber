@@ -568,6 +568,16 @@ footer{
     }
 }
 
+@media screen and (max-width: 1199.98px) {
+    #carouselCyber .carousel-caption{
+        top: 50%;
+    }
+
+    #carouselCyber .carousel-caption h1{
+        font-size: 4vw;
+    }
+}
+
 @media screen and (max-width: 767.98px) {
     #navbarInstruction .navbar-nav{
         background-color:#eee;
@@ -602,7 +612,7 @@ footer{
     }
 }
 
-@media screen and(min-width: 768px) and (max-width:992px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
     #navbarInstruction .nav-item{
         margin: 0;
         padding: 0 2px;
