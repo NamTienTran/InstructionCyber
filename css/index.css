@@ -170,7 +170,7 @@ html, body {
 
 #carouselCyber  .carousel-caption p{
     letter-spacing: 4px;
-    line-height: 1.8rem;
+    line-height: 1.8em;
 
     width: 70%;
     margin: 0 auto; /*margin auto chỉ áp dụng cho 1 thẻ, không áp dụng cho 1 khối có áp dụng position*/
@@ -192,6 +192,10 @@ html, body {
     background-color: #ff4f81;
     border-color: #ff4f81;
 }
+
+#carouselCyber .carousel-control-next, #carouselCyber .carousel-control-prev{
+    z-index: 11;
+} 
 
 /* WELCOME */
 
@@ -555,6 +559,25 @@ footer{
 
 /* ************ RESPONSIVE ************* */
 /* HEADER */
+@media screen and (max-width: 1199.98px) {
+    #carouselCyber .carousel-caption{
+        top: 50%;
+    }
+
+    #carouselCyber .carousel-caption h1{
+        font-size: 4vw;
+    }
+
+    #carouselCyber .carousel-caption p{
+        font-size: 1.6vw;
+        margin-bottom: 0.5em;
+    }
+
+    #carouselCyber .carousel-caption button{
+        font-size: 1.5vw;
+        padding: 0.8em 1em;
+    }
+}
 
 @media screen and (max-width: 991.98px) {
     .navInstruction .navbar-brand p:first-child{
@@ -565,16 +588,6 @@ footer{
     .navInstruction .navbar-brand p:last-child{
         /* 1.5% so với width của trình duyệt */
         font-size: 1.5vw;
-    }
-}
-
-@media screen and (max-width: 1199.98px) {
-    #carouselCyber .carousel-caption{
-        top: 50%;
-    }
-
-    #carouselCyber .carousel-caption h1{
-        font-size: 4vw;
     }
 }
 
@@ -609,6 +622,20 @@ footer{
 
     .header__right a{
         margin-bottom: 5px;
+    }
+}
+
+@media screen and (max-width:415px) {
+    #carouselCyber{
+        height: 250px;
+    }
+
+    #carouselCyber .carousel-inner, #carouselCyber .carousel-item, #carouselCyber .carousel-item img{
+        height: 100%;
+    }
+
+    #carouselCyber .carousel-item img{
+        object-fit: cover;
     }
 }
 
