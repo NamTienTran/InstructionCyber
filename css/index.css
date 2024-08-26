@@ -612,6 +612,10 @@ footer{
 }
 
 @media screen and (max-width: 575.98px){
+    /* GLOBAl */
+    .heading p{
+        padding: 0 15px;
+    }
     /* HEADER */
     .header__left a{
         display: block;
