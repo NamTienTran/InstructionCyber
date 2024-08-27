@@ -474,6 +474,8 @@ footer{
 
 .footer__link, .footer__contact{
     margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
 }
 
 .footer__link i{
@@ -619,6 +621,12 @@ footer{
     /* HEADER */
     .header__left a{
         display: block;
+    }
+    /* FOOTER */
+    .footer__form input, .footer__form button{
+        font-size: 14px;
+        border: 0px;
+        padding: 10px;
     }
 }
 
